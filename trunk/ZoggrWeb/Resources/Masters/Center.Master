@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Center.Master.cs" Inherits="Zoggr.Web.Resources.Masters.Center" %>
+
+<%@ Register Src="~/Controls/Header.ascx" TagName="Header" TagPrefix="zgr" %>
+<%@ Register Src="~/Controls/Footer.ascx" TagName="Footer" TagPrefix="zgr" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+    <title>Zoggr</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManagerControl" runat="server" />
+        
+        <div>
+            <div id="HeaderContent">
+                <asp:ContentPlaceHolder ID="HeaderContentPlaceHolder" runat="server">
+                    <zgr:Header ID="HeaderControl" runat="server" />
+                </asp:ContentPlaceHolder>
+            </div>
+            
+            <div id="LeftContent">
+                <asp:ContentPlaceHolder ID="LeftContentPlaceHolder" runat="server">
+                
+                </asp:ContentPlaceHolder>
+            </div>
+            
+            <div id="RightContent">
+                <asp:ContentPlaceHolder ID="RightContentPlaceHolder" runat="server">
+                
+                </asp:ContentPlaceHolder>
+            </div>
+            
+            <div id="CenterContent">
+                <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+                
+                </asp:ContentPlaceHolder>
+            </div>
+        
+            <div id="CenterFooter">
+                <asp:ContentPlaceHolder ID="FooterContentPlaceHolder" runat="server">
+                    <zgr:Footer ID="FooterControl" runat="server" />
+                </asp:ContentPlaceHolder>            
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GuestMaster.master.cs" Inherits="Zoggr.Web.Resources.Masters.GuestMaster" %>
+
+<%@ Register src="~/Controls/GuestHeader.ascx" tagname="GuestHeader" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Zoggr</title>
+    <asp:ContentPlaceHolder ID="HeadPlaceHolder" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManagerControl" runat="server" />
+        <center>
+            <asp:ContentPlaceHolder ID="GuestContentPlaceHolder" runat="server">
+                <uc1:GuestHeader ID="GuestHeaderControl" runat="server" />
+            </asp:ContentPlaceHolder>
+            
+            <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+            
+            </asp:ContentPlaceHolder>
+            
+        </center>
+    </form>
+</body>
+</html>

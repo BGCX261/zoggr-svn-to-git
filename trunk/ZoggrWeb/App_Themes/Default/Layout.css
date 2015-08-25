@@ -1,0 +1,53 @@
+﻿/* Page Layout */
+
+/* Left, Right Columns */
+#LeftContent {clear: both; position: absolute; margin-top: 6px; left: 4px; width: 140px;}
+#RightContent {clear: both; position: absolute; margin-top: 6px; right: 4px; width: 140px;}
+
+/* Center Content, Footer
+        ---------------
+        |  |       |  |
+        |  |       |  |
+        |  |       |  |
+        |  |       |  |
+        |  | ===== |  |
+        ---------------
+*/
+#CenterContent {clear: both; margin: 6px 154px 4px 154px;}
+#CenterFooter {clear: both; margin: 50px 154px 4px 154px;}
+
+/* Wide Content, Footer
+        ---------------
+        |  |          |
+        |  |          |
+        |  |          |
+        |  |          |
+        |  | ======== |
+        ---------------
+*/
+#WideContent {clear: both; margin: 6px 4px 4px 154px;}
+#WideFooter {clear: both; margin: 50px 4px 4px 154px;}
+
+/* LeftWide Content, Footer
+        ---------------
+        |          |  |
+        |          |  |
+        |          |  |
+        |          |  |
+        | ======== |  |
+        ---------------
+*/
+#LeftWideContent {clear: both; margin: 6px 154px 4px 4px;}
+#LeftWideFooter {clear: both; margin: 50px 154px 4px 4px;}
+
+/* Full Content, Footer
+        ---------------
+        |              |
+        |              |
+        |              |
+        |              |
+        | ============ |
+        ---------------
+*/
+#FullContent {clear: both; margin: 6px 4px 4px 14px;}
+#FullFooter {clear: both; margin: 50px 4px 4px 14px;}

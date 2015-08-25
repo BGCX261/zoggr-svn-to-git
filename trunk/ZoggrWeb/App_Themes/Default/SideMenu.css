@@ -1,0 +1,42 @@
+﻿#sidenav {
+	width: 100%;
+	padding: 0 0 1em 0;
+	margin-bottom: 1em;
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+	background-color: #e2d4e6;
+	color: #333;
+}
+
+#sidenav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#sidenav li {
+	border-bottom: 1px solid #9b7ac8;
+	margin: 0;
+}
+
+#sidenav li a {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 10px solid #3d107b;
+	border-right: 10px solid #ad91d4;
+	background-color: #724aa8;
+	color: #fff;
+	text-decoration: none;
+	width: 100%;
+}
+
+html>body #sidenav li a {
+	width: auto;
+}
+
+#sidenav li a:hover {
+	border-left: 10px solid #1f083e;
+	border-right: 10px solid #56486a;
+	background-color: #392554;
+	color: #fff;
+}

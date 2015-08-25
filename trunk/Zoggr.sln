@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoggr", "Zoggr\Zoggr.csproj", "{69AE0DC2-9C1D-42AC-9BFE-7403BB5E2103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoggrWeb", "ZoggrWeb\ZoggrWeb.csproj", "{16250E68-351D-4B4D-BBB3-304138B7BFE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoggrService", "ZoggrService\ZoggrService.csproj", "{75585A95-B172-4EDA-A809-23B69F6CCA78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplayTv", "ReplayTv\ReplayTv.csproj", "{4B6E8099-75EB-49D1-97EE-CDA1D6B65F0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoggrData", "ZoggrData\ZoggrData.csproj", "{285ABABE-7F54-4D17-95DA-AC53404E52B0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ZoggrUpdaterServiceInstaller", "ZoggrUpdaterServiceInstaller\ZoggrUpdaterServiceInstaller.vdproj", "{9F2E14AF-ADC3-4EF5-8495-627074CA8551}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69AE0DC2-9C1D-42AC-9BFE-7403BB5E2103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69AE0DC2-9C1D-42AC-9BFE-7403BB5E2103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69AE0DC2-9C1D-42AC-9BFE-7403BB5E2103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69AE0DC2-9C1D-42AC-9BFE-7403BB5E2103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16250E68-351D-4B4D-BBB3-304138B7BFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16250E68-351D-4B4D-BBB3-304138B7BFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16250E68-351D-4B4D-BBB3-304138B7BFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16250E68-351D-4B4D-BBB3-304138B7BFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75585A95-B172-4EDA-A809-23B69F6CCA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75585A95-B172-4EDA-A809-23B69F6CCA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75585A95-B172-4EDA-A809-23B69F6CCA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75585A95-B172-4EDA-A809-23B69F6CCA78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B6E8099-75EB-49D1-97EE-CDA1D6B65F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6E8099-75EB-49D1-97EE-CDA1D6B65F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6E8099-75EB-49D1-97EE-CDA1D6B65F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6E8099-75EB-49D1-97EE-CDA1D6B65F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285ABABE-7F54-4D17-95DA-AC53404E52B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285ABABE-7F54-4D17-95DA-AC53404E52B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285ABABE-7F54-4D17-95DA-AC53404E52B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285ABABE-7F54-4D17-95DA-AC53404E52B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F2E14AF-ADC3-4EF5-8495-627074CA8551}.Debug|Any CPU.ActiveCfg = Debug
+		{9F2E14AF-ADC3-4EF5-8495-627074CA8551}.Debug|Any CPU.Build.0 = Debug
+		{9F2E14AF-ADC3-4EF5-8495-627074CA8551}.Release|Any CPU.ActiveCfg = Release
+		{9F2E14AF-ADC3-4EF5-8495-627074CA8551}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

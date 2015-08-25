@@ -1,0 +1,72 @@
+﻿.ddcolortabs{
+	padding: 60px 0px 0px 0px;
+	width: 100%;
+	background: transparent;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+}
+
+.ddcolortabs ul{
+	font: normal 11px Arial, Verdana, sans-serif;
+	margin:0;
+	padding:0;
+	list-style:none;
+	float: right;
+}
+
+.ddcolortabs li{
+	display:inline;
+	margin:0 2px 0 0;
+	padding:0;
+	text-transform:uppercase;
+}
+
+
+.ddcolortabs a{
+	float:left;
+	color: white;
+	background: #A98ECF url(images/color_tabs_left.gif) no-repeat left top;
+	margin:0 2px 0 0;
+	padding:0 0 1px 3px;
+	text-decoration:none;
+	letter-spacing: 1px;
+}
+
+.ddcolortabs a span{
+	float:left;
+	display:block;
+	background: transparent url(images/color_tabs_right.gif) no-repeat right top;
+	padding: 6px 8px 3px 7px;
+}
+
+.ddcolortabs a span{
+	float:none;
+}
+
+.ddcolortabs a:hover {
+	background-color: #A98ECF;
+	text-decoration: underline;
+}
+
+.ddcolortabs a:hover span{
+	background-color: #A98ECF;
+	text-decoration: underline;
+}
+
+.ddcolortabs a.current {
+	background: #3D107B url(images/color_tabs_left.gif) no-repeat left top;
+}
+
+.ddcolortabs a.current span {
+	background: transparent url(images/color_tabs_right.gif) no-repeat right top;
+}
+
+.tabcontainer
+{
+	clear: both;
+	width:100%; /*width of 2nd level sub menus*/
+	height:1.5em; /*height of 2nd level sub menus. Set to largest's sub menu's height to avoid jittering.*/
+	border-top: 4px solid #3D107B;
+	border-bottom: 1px solid #3D107B;
+	background-color: #F0F0F0;
+}
